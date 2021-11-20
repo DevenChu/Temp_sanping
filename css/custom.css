@@ -1,0 +1,189 @@
+/* ==============================
+建醮時程 section
+============================== */
+.time{
+    padding-bottom: 20px;
+}
+.time .row{
+    margin: 0;
+}
+.time .timetxt{
+    background: url("../images/aboout_bg.jpg");
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding: 0 60px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.time .time_item{
+    border: #e6dddb solid 1px;
+    margin: 60px 10px 10px;
+    position: relative;
+
+}
+.time .bnn,
+.time .bnn2{
+    background-color: #FF004D;
+    position: absolute;
+    top: -25px;
+    left: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+.time .bnn2{
+    background-color: #ff6100;
+}
+
+.actdata{
+    margin: 60px 30px 20px;
+}
+.actdata .da{
+    border-bottom: 1px solid #fff;
+    width: 80%;
+}
+.actdata h2{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FF004D;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0;
+    width: 35%;
+    padding: 5px 10px;
+}
+.actdata h1{
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 5px;
+}
+.rightitem h2{
+    color: #ff6600;
+}
+
+/* ==============================
+柱會斗首 section
+============================== */
+.road{
+    padding-bottom: 20px;
+}
+.road .row{
+    margin: 0;
+}
+.road .timetxt{
+    width: 100%;
+    display: flex;
+}
+
+/* ==============================
+路關表 section
+============================== */
+.five .multi-columns-row{
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.five .col-md-15,
+.five .col-lg-15{
+    width: 20%;
+}
+.team-item-image{
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid #e91e63;
+}
+.team-item-image img{
+    width: 100%;
+}
+.five .five_PD{
+    padding: 5px;
+}
+.five_light{
+    margin: auto;
+}
+.five_light .col-md-15,
+.five_light .col-lg-15{
+    width: 19%;
+}
+.five_light .five_it{
+    background-image: url("../images/five_item.jpg");
+    text-align: center;
+    margin:2px;
+    padding-bottom: 30px;
+    height: 150px;
+}
+.five_light h1{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+    color: #ffcf00;
+}
+.five_light small{
+    font-weight: 300;
+    font-size: 22px;
+    color: #fff;
+}
+
+/* ==============================
+關於碧慈宮 section
+============================== */
+.about{
+    padding-bottom: 20px;
+    background-image: url("../images/aboout_bg.jpg");
+    padding: 10px 0 20px;
+    /*font-size: ;*/
+}
+.about .multi-columns-row{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.about .col-sm-12,
+.about .col-md-12,
+.about. col-lg-12{
+    margin: auto;
+}
+.about .txt{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+    width: 100%;
+    text-align: left;
+    line-height: 40px;
+    padding: 10px 30px;
+}
+
+/* ==============================
+聯絡洽詢 section
+============================== */
+.contact{
+    padding-bottom: 20px;
+}
+.contact .multi-columns-row{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* ==============================
+Google maps
+============================== */
+
+.google-map{
+    position: relative;
+    background: #111;
+    padding-bottom: 30%; /* 此為地圖長寬比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
